@@ -15,9 +15,9 @@ public class star_Trangle {
         for (int i = 0; i <= a ; i++) { // row
             
 
-            for (int j = 1; j <= i; j++) { // col
+            for (int j = 0; j <= i; j++) { // col
                 
-                System.out.print(" * ");
+                System.out.print((char)('A' + j)+ " ");
             }
 
              System.out.println();
