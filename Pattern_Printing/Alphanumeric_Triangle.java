@@ -11,12 +11,12 @@ public class Alphanumeric_Triangle {
 
         int a = 5;
 
-        for (int i = 0; i <= a ; i++) { // row
+        for (int i = 1; i <= a ; i++) { // row
             
 
-            for (int j = 0; j <= i; j++) { // col
+            for (int j = 1; j <= a -i +1; j++) { // col
                 
-                System.out.print((char)('A' + j)+ " ");
+                System.out.print( "* ");
             }
 
              System.out.println();
