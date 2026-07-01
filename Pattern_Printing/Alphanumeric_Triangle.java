@@ -1,14 +1,13 @@
 package Pattern_Printing;
-
 /**
- * star_Trangle
+ * Alphanumeric_Triangle
  */
-public class star_Trangle {
+public class Alphanumeric_Triangle {
 
     public static void main(String[] args) {
         
         
-        System.out.println("Star  Pattern");
+        System.out.println("Alphanumeric  Pattern");
 
         int a = 5;
 
@@ -17,11 +16,10 @@ public class star_Trangle {
 
             for (int j = 0; j <= i; j++) { // col
                 
-                System.out.print(" * ");
+                System.out.print((char)('A' + j)+ " ");
             }
 
              System.out.println();
         }
     }
 }
-// 
