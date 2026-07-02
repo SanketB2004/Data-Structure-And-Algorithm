@@ -1,6 +1,4 @@
-/**
- * diamond_pattern
- */
+package Pattern_Printing;
 public class diamond {
 
     public static void main(String[] args) {
