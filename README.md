@@ -1,2 +1,1 @@
-# Data-Structure-And-Algorithm
-Concept Wise Problems Many Problems Solve And GFG Solve
+ A complete Data Structures & Algorithms journey with concept-wise solutions, coding patterns, and GeeksforGeeks problem-solving. 
