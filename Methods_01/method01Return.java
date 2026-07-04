@@ -8,19 +8,28 @@ package Methods_01;
  * 
  */
 public class method01Return {
-    public static  int presun(){
+    public static  int presun(int a){ // parameter means apan yala user kadun ghenar 
 
-        System.out.println("Banu");
+        
         System.out.println("Nanda");
 
-      return 5;
-    }
+      if(a>0)return 5;
+else return 10;
+
+    } // multi use return stetament
+
+
+
 
     public static void main(String[] args) {
-        int x = presun();
-        System.out.println(3+x);
+         int x = presun(7);// prasun method is value because this is a return type funcction
+
+         System.out.println(3+x); // multi return stetament use in this method and calling
 
 
+
+         
+       
     }
     
 }
