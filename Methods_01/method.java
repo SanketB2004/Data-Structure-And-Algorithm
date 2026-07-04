@@ -15,6 +15,15 @@ public class method {
 public static void sum(int a , int b){ // this is parameter //3rd code
 System.out.println(a+b);
 }
+
+
+// max method 
+
+public static void max(int a ,int b , int c){
+
+    System.out.println(Math.max(Math.max(a, b),c));
+}// maximum Number Function 
+
     public static void main(String[] args) {
     
 // riyanshi();//1st code check
@@ -22,7 +31,9 @@ System.out.println(a+b);
 
 
 // argumetn 
-sum(54, 58); //check 3rd code
+// sum(54, 58); //check 3rd code
+
+max(57, 585, 59);
 
 
 
