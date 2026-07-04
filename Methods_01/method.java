@@ -12,10 +12,25 @@ public class method {
     
 //    }
 
+public static void sum(int a , int b){ // this is parameter //3rd code
+System.out.println(a+b);
+}
     public static void main(String[] args) {
     
-// riyanshi();
-rishika(); // this is enfinide
+// riyanshi();//1st code check
+// rishika(); // this is enfinide  // 2nd code check
+
+
+// argumetn 
+sum(54, 58); //check 3rd code
+
+
+
+
+
+
+
+
 
    }
 
@@ -43,24 +58,28 @@ rishika(); // this is enfinide
 // khushi
 
 
-public static void rishika(){
+// public static void rishika(){
 
-System.out.println("Archit");
+// System.out.println("Archit");
 
-ishan();
-}
+// ishan();
+// }
 
-public static void ishan(){
-    System.out.println("Laksha");
-    varad();
+// public static void ishan(){
+//     System.out.println("Laksha");
+//     varad();
     
-}
+// }
 
-public static void varad(){
+// public static void varad(){
 
-    System.out.println("Malani");
+//     System.out.println("Malani");
     
-    rishika();
-} // enfinite method 
+//     rishika();
+// } // enfinite method 
+
+
+
+//
 
 }
