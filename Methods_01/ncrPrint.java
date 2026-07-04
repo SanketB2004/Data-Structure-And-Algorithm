@@ -15,11 +15,15 @@ public class ncrPrint {
         int factorialA = factorialCalculator(a);
         int factorialB  = factorialCalculator(b);
 
-        int randnminus = factorialCalculator(a-b);
+        // int randnminus = factorialCalculator(a-b);
 
-int ncr = factorialA / (factorialB * randnminus);
+int ncr =  factorialA / (factorialB * factorialCalculator(a - b));
+
+int npr = factorialCalculator(a)/factorialCalculator(a-b);
        
-        System.out.println(ncr);
+        System.out.println(ncr + " This Is ncr");
+
+        System.out.println(npr+ " This Is npr");
 
         ;
 
