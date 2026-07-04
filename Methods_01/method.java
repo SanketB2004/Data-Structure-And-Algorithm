@@ -5,23 +5,37 @@ package Methods_01;
  */
 public class method {
 
-    public static void banau() {
-        System.out.println("Ashirvad ");
-    }// This Not Return
+   public static void sharavan(){
 
-    public static void main(String[] args) {
-        System.out.println("Sanket");
-         banau(); // call method function
-        System.out.println("Atharv");
+    karan();
+    System.out.println("Khushi");
+    
+   }
 
-        banau(); // call method function
-        trishul(); // call method function
-    }
+   public static void main(String[] args) {
+    
+riyanshi();
+   }
+
+   public static void karan(){
+
+    System.out.println("Yashika");
+   }
+
+   public static void riyanshi(){
+    karan();;
+    sharavan();
+    System.out.println("Ajay");
+    sharavan();
+   }
 
 
-    public static void trishul(){
-
-        System.out.println("Arpit ");
-
-    }//This Not Return 
 }
+
+// output : 
+// yashika 
+// yashika
+// khushi
+// ajay
+// yashika
+// khushi
