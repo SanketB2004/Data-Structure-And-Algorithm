@@ -43,9 +43,11 @@ public class arraybasic02 {
         // input for use loops
         for (int i = 0; i < sanket.length; i++) {
 
-            int x = sc.nextInt();
+            // int x = sc.nextInt();
 
-            sanket[i] = x;
+            // sanket[i] = x;
+
+            sanket[i]=sc.nextInt();
 
         }
         int e = sanket.length;
