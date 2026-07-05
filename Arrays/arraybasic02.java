@@ -24,7 +24,7 @@ public class arraybasic02 {
 
         }
         System.out.println();
-
+  
         int[] sanket = new int[10];
         // defult value 0
         int a = sanket.length;
