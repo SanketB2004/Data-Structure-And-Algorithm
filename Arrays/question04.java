@@ -18,7 +18,7 @@ public class question04 {
 
              mAX = arr[i] ;
 
-             if (arr[i]< mAX) {
+             if (arr[i]> mAX) {
                 mAX= arr[i];
              }
 
