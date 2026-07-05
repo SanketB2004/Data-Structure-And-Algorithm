@@ -2,7 +2,7 @@ package Methods_01;
 
 public class passByValueandRef {
     
-    public static void change(int x){
+    public static void change(int x){ // this is x is alag hai psvm ke x se
         x = 10;
     }
 
