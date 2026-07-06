@@ -11,7 +11,7 @@ public class question04 {
 
         int[] arr = {1,2,3,4};
 
-        int n = arr.length;
+        int n = Integer.MIN_VALUE;
         
         int max =arr[0];
         for (int i = 0; i < n; i++) {
