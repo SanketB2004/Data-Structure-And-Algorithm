@@ -13,19 +13,18 @@ public class question04 {
 
         int n = arr.length;
         
-        int mAX =arr[0];
+        int max =arr[0];
         for (int i = 0; i < n; i++) {
 
-             mAX = arr[i] ;
+             max = arr[i] ;
 
-             if (arr[i]> mAX) {
-                mAX= arr[i];
+             if (arr[i]> max) {
+                max= arr[i];
              }
 
                
-            }
-
-             System.out.println(mAX);
+        
+             System.out.println(max);
          
             
 
