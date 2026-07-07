@@ -14,6 +14,8 @@ public class shellocopy_Deepcopy {
         // System.out.println(arr[0]); // change
 
       int[] deep = Arrays.copyOf(arr , arr.length); // deep copy 
+ // secont method deep copy make 
+ int [] brr = new int[arr.length];
  
       deep[0] = 500; // change in deep but not change arr
 
