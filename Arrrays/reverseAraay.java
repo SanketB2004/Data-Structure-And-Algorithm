@@ -10,7 +10,7 @@ public class reverseAraay {
 
          int n = arr.length;
 
-         int i = 0 , j = arr.length-1;
+         int i = 2 , j = arr.length -3;
 
 
          while (i<j) {
