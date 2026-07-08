@@ -1,4 +1,4 @@
-package Arrays;
+package Arrrays;
 
 public class question05 {
     

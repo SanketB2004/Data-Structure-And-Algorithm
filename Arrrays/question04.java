@@ -1,4 +1,4 @@
-package Arrays;
+package Arrrays;
 
 // Print Max in of array
 
@@ -34,3 +34,4 @@ public class question04 {
        
 
     }
+}

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrrays;
 // q is multiplay odd indexed 2 and even to 10 add
 
 public class arrayq07 {

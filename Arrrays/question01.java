@@ -1,4 +1,4 @@
-package Arrays;
+package Arrrays;
 
 // Given an arraay print negative elements only
 

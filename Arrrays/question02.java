@@ -1,4 +1,4 @@
-package Arrays;
+package Arrrays;
 
 // Print sum of array
 

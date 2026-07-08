@@ -1,4 +1,4 @@
-package Arrays;
+package Arrrays;
 
 public class question06 {
     // this is a minimum value in array

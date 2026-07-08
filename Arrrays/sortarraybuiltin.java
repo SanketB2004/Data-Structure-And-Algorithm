@@ -1,5 +1,5 @@
 
-package Arrays;
+package Arrrays;
 import java.util.*;
 /**
  * sort array built in
