@@ -1,4 +1,4 @@
- package Arrrays;
+   package Arrrays;
 
 /**
  * Second Max
@@ -9,23 +9,39 @@ public class SeconsdMax {
 
         int[] arr = {1,2,3,4,5,6,7,8,9,10};
 
-        int max = arr[0];
-        int secondMax = arr[0];
+        // int max = arr[0];
+        // int secondMax = arr[0];
 
-        for (int i = 1; i < arr.length; i++) {
+        // for (int i = 1; i < arr.length; i++) {
 
-            if (arr[i] > max) {
-                secondMax = max;
-                max = arr[i];
+        //     if (arr[i] > max) {
+        //         secondMax = max;
+        //         max = arr[i];
+        //     }
+        //     else if (arr[i] > secondMax) {
+        //         secondMax = arr[i];
+        //     }
+        // }
+
+        // System.out.println("Max = " + max);
+        // System.out.println("Second Max = " + secondMax);
+int max = -1 ;
+int secondmax =  -1;
+        for (int i : arr) {
+            if (i > max) {
+                secondmax = max;
+                max = i;
+
             }
-            else if (arr[i] > secondMax) {
-                secondMax = arr[i];
+            else if (i > secondmax && i != max) {
+                secondmax = i;
             }
         }
-
         System.out.println("Max = " + max);
-        System.out.println("Second Max = " + secondMax);
+         System.out.println("Second Max = " + secondmax);
     }
 }
     
+
+
 
