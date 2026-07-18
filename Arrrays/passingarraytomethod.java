@@ -7,6 +7,9 @@ public class passingarraytomethod {
         int [] x= { 10,29,14,78};
 
         System.out.println(x[2]);
+        System.out.println(x[2]);
+        
+
 
         change(x);
 
